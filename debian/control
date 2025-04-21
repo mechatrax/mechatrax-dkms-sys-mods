@@ -1,0 +1,19 @@
+Source: mechatrax-dkms-sys-mods
+Section: misc
+Priority: optional
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Uploaders: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.6.2
+Homepage: https://mechatrax.com/
+Vcs-Git: https://github.com/mechatrax/mechatrax-dkms-sys-mods.git
+Vcs-browser: https://github.com/mechatrax/mechatrax-dkms-sys-mods
+
+Package: mechatrax-dkms-sys-mods
+Architecture: armhf
+Conflicts: adpi-dkms-sys-mods
+Depends: ${misc:Depends}, raspi-config (>= 20160506)
+Description: System boot configuration for MechaTracks dkms packages
+ This package provides system boot configuration to use dkms packages
+ for MechaTracks packages.
+

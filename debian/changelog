@@ -1,0 +1,5 @@
+mechatrax-dkms-sys-mods (1.0.0) bookworm; urgency=medium
+
+  * Initial release.
+
+ -- Masahiro Honda <honda@mechatrax.com>  Mon, 21 Apr 2025 17:43:26 +0900
